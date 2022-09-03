@@ -1,4 +1,7 @@
-package ua.ithillel.lms.javapro.pavlopashchevskyi.task5.compitition;
+package ua.ithillel.lms.javapro.pavlopashchevskyi.task5.compitition.client;
+
+import ua.ithillel.lms.javapro.pavlopashchevskyi.task5.compitition.api.Obstacle;
+import ua.ithillel.lms.javapro.pavlopashchevskyi.task5.compitition.api.Participable;
 
 public class Racetrack implements Obstacle {
     private double length;

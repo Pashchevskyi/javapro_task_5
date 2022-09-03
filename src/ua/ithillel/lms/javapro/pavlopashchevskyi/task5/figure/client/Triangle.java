@@ -1,6 +1,8 @@
-package ua.ithillel.lms.javapro.pavlopashchevskyi.task5.figure;
+package ua.ithillel.lms.javapro.pavlopashchevskyi.task5.figure.client;
 
-public class Triangle implements Figure {
+import ua.ithillel.lms.javapro.pavlopashchevskyi.task5.figure.api.AreaCountable;
+
+public class Triangle implements AreaCountable {
 
     private double a, b, c;
 
