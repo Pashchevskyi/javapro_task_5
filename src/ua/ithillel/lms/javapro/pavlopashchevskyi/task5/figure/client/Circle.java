@@ -12,6 +12,6 @@ public class Circle implements AreaCountable {
 
     @Override
     public double area() {
-        return Math.PI * radius * radius;
+        return Math.PI * Math.pow(radius, 2);
     }
 }
